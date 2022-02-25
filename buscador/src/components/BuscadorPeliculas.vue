@@ -1,8 +1,11 @@
 <template>
     <div class="row d-flex justify-content-center">
-        <h1 class="mt-4 p-2">Buscador de Vuex</h1>
-        <NavBar></NavBar>
-        <InfoMovie></InfoMovie>
+        <h1 class="mt-4 p-2">Buscador de peliculas</h1>
+        <NavBar />
+        <div class="row">
+            <InfoMovie />
+        </div>
+        
     </div>
 </template>
 <script>

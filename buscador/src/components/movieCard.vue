@@ -1,11 +1,11 @@
 <template>
-    <div class="mt-3 col-6">
+    <div class="mt-3 col-sm-6">
         <div class="card">
-            <div class="card-header">
-                <h4 class="card-title">{{pelicula.titlle}}</h4>
-                <h6 class="available">Available:{{pelicula.available}}</h6>
+            <div class="card-header bg-dark">
+                <h4 class="card-title text-white">{{pelicula.titlle}}</h4>
+                <h6 class="available text-white">Available:{{pelicula.available}}</h6>
             </div>
-            <div class="card-body">
+            <div class="card-body ">
                 <p class="card-text">{{pelicula.description}}</p>
             </div>
         </div>
